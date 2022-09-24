@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/scrimba/static/css/main.bbeaeca8.css",
-    "main.js": "/scrimba/static/js/main.f71afe15.js",
-    "static/media/headshot.PNG": "/scrimba/static/media/headshot.5486634388984d97f644.PNG",
-    "index.html": "/scrimba/index.html",
-    "main.bbeaeca8.css.map": "/scrimba/static/css/main.bbeaeca8.css.map",
-    "main.f71afe15.js.map": "/scrimba/static/js/main.f71afe15.js.map"
+    "main.css": "/business-card/static/css/main.4e7170aa.css",
+    "main.js": "/business-card/static/js/main.f71afe15.js",
+    "static/media/headshot.PNG": "/business-card/static/media/headshot.5486634388984d97f644.PNG",
+    "index.html": "/business-card/index.html",
+    "main.4e7170aa.css.map": "/business-card/static/css/main.4e7170aa.css.map",
+    "main.f71afe15.js.map": "/business-card/static/js/main.f71afe15.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbeaeca8.css",
+    "static/css/main.4e7170aa.css",
     "static/js/main.f71afe15.js"
   ]
 }
