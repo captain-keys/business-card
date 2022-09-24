@@ -1,0 +1,305 @@
+body {
+  margin: 0;
+}
+
+.app {
+  position: absolute;
+  width: 550px;
+  height: 868px;
+  background: #23252C;
+}
+
+.info--headshot {
+  width: 317px;
+  height: 317px;
+  margin-left: 116px;
+  margin-top: 44px;
+  background: url(./images/headshot.PNG);
+  background-position: -240px -17px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.info--card {
+  position: absolute;
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+
+  background: #1A1B21;
+}
+
+.info--name { 
+  position: absolute;
+  width: 178.06px;
+  height: 25.81px;
+  left: 186px;
+  top: 382px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.info--title {
+  position: absolute;
+  width: 178.06px;
+  height: 14.19px;
+  left: 186px;
+  top: 414px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #F3BF99;
+}
+
+.info--addy {
+  position: absolute;
+  width: 228px;
+  height: 16px;
+  left: 161px;
+  top: 437px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.mail--butt {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  left: 151px;
+  top: 468px;
+  
+  background: #ffffff;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.mail--icon {
+  /* Mail */
+
+  width: 19px;
+  height: 19px;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+}
+.mail--text {
+  width: 36px;
+  height: 16px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #374151;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0s;
+}
+
+.linked--butt {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  left: 283px;
+  top: 468px;
+
+  background: #5093E2;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+
+}
+
+.linked--icon {
+  width: 14px;
+  height: 14px;
+  padding: 1 1;
+  border-radius: 3px;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  color: #5093E2;
+  background-color: #FFFFFF;
+}
+
+.linked--text {
+  /* Text */
+
+  width: 57px;
+  height: 16px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* identical to box height, or 114% */
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.about--card {
+  position: absolute;
+  width: 247px;
+  height: 201px;
+  left: 151px;
+  top: 528px;
+}
+
+.about--title {
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 151px;
+  top: 528px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+
+  /* or 24px */
+
+  color: #F5F5F5;
+}
+
+.about--text {
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 151px;
+  top: 554px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  
+  /* or 15px */
+  
+  color: #DCDCDC;
+}
+
+.int--title {
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 151px;
+  top: 642px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+
+  /* or 24px */
+
+  color: #F5F5F5;
+}
+
+.int--text {
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 151px;
+  top: 668px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  
+  /* or 15px */
+  
+  color: #DCDCDC;
+}
+
+.footer--card {
+  position: absolute;
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.twitter {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  left: 189px;
+  top: 779px;
+
+  padding: 3 3;
+  border-radius: 2px;
+
+  background: #918E9B;
+}
+
+.github {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  left: 335.5px;
+  top: 779px;
+  padding: 3 3;
+  border-radius: 2px;
+
+  background: #918E9B;
+}
