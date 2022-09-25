@@ -112,6 +112,8 @@ body {
   order: 0;
   flex-grow: 0;
 
+  color: #23252C;
+
 }
 .mail--text {
   width: 36px;
@@ -301,5 +303,6 @@ body {
   padding: 3 3;
   border-radius: 2px;
 
+  color: #161619;
   background: #918E9B;
 }

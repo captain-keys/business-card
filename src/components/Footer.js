@@ -6,7 +6,9 @@ export default function Footer() {
         <div>
             <div className="footer--card"></div>
             <Icon className="twitter" icon="akar-icons:twitter-fill" />
-            <Icon className="github" icon="akar-icons:github-fill" />
+            <a href="https://github.com/electrickeys">
+                <Icon className="github" icon="akar-icons:github-fill" />
+            </a>
         </div>
 
   )
